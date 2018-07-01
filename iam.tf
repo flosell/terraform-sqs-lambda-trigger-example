@@ -31,9 +31,10 @@ data "aws_iam_policy_document" "example_lambda" {
     resources = ["arn:aws:sqs:*"]
 
     actions = [
+      "sqs:ChangeMessageVisibility",
       "sqs:DeleteMessage",
-      "sqs:ReceiveMessage",
       "sqs:GetQueueAttributes",
+      "sqs:ReceiveMessage",
     ]
   }
 
