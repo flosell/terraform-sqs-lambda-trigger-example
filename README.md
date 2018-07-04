@@ -2,7 +2,7 @@
 
 Example on how to create a AWS Lambda triggered by SQS in Terraform
 
-**Note: This depends on [PR 5024](https://github.com/terraform-providers/terraform-provider-aws/pull/5024) in terraform-provider-aws which has not been merged and released yet**
+**Note: This depends on [`terraform-aws-provider` `1.26.0`](https://github.com/terraform-providers/terraform-provider-aws/blob/master/CHANGELOG.md#1260-july-04-2018)**
 
 ## Usage
 
